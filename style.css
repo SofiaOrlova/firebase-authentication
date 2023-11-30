@@ -1,0 +1,127 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    margin: 0;
+}
+
+.container{
+    padding: 0 42px;
+}
+
+.logo p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    padding-top: 31px;
+}
+
+.signIn{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.login-description{
+    padding-top: 233px;
+    padding-left: 133px;
+    width: 629px;
+    height: 80vh;
+    background-image: url(img/Saly-14.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+}
+
+.login-title{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.login-text p{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.login-link{
+    padding-top: 53px;
+}
+
+.login-link p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.login-link span{
+    color:#4D47C3;
+    font-weight: 600;
+}
+
+.login-form{
+    padding-top: 113px;
+}
+
+.login-form-title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    margin: 0;
+}
+
+.login-form input{
+    width: 343px;
+    height: 62px;
+    border-radius: 8px;
+    background-color: #F0EFFF;
+    border: 0;
+    margin-top: 38px;
+    outline: none;
+    padding-left: 26px;
+}
+
+.login-form input::placeholder{
+    color: #A7A3FF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login-form input[type=email]{
+    padding-left: 26px;
+    color: #A7A3FF;
+}
+.login-form input[type=password]{
+    padding-left: 26px;
+    color: #A7A3FF;
+}
+
+.login-form button{
+    width: 369px;
+    height: 62px;
+    border-radius: 9px;
+    background-color: #4D47C3;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    margin-top: 38px;
+    box-shadow: 0 4px 61px 0 #4D47C366;
+}
+
+.login-form input:last-child{
+    width: 369px;
+    height: 62px;
+    border-radius: 9px;
+    background-color: #4D47C3;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    margin-top: 38px;
+    box-shadow: 0 4px 61px 0 #4D47C366;
+}
+
+.register-form{
+    padding-top: 39px;
+}
